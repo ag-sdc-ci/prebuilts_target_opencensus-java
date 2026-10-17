@@ -1,0 +1,11 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_opencensus_java-x86_64-v2.so",
+		    "libdummy_ext_opencensus_java.so",
+		    "libdummy_shared_opencensus-java-x86_64-v2.so",
+		    "libdummy_shared_opencensus-java.so",
+		    "libdummy_shared_opencensus_java-x86_64-v2.so",
+		    "libdummy_shared_opencensus_java.so"
+	],
+	"visible": true
+}

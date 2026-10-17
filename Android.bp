@@ -1,0 +1,44 @@
+// Auto-generated prebuilt Blueprint for external/opencensus-java
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.opencensus-java
+
+package {
+    default_visibility: ["//visibility:public"],
+    default_applicable_licenses: ["external_opencensus-java_license"],
+}
+
+license {
+    name: "external_opencensus-java_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+java_import {
+    name: "opencensus-java-api",
+    jars: ["share/opencensus-java/opencensus-api-0.31.1.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "33",
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.devicelock",
+    ],
+}
+
+java_import {
+    name: "opencensus-java-contrib-grpc-metrics",
+    jars: ["share/opencensus-java/opencensus-contrib-grpc-metrics-0.31.1.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "33",
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.devicelock",
+    ],
+}
